@@ -14,10 +14,14 @@ FlowLink is the Illumio Core PCE Flow Collector. It sends network flows to the P
 ## Quick Start
 
 ```bash
-# 1. Install dependencies
+# 1. Clone the repository
+git clone https://github.com/illumio-community/illumio-flowlink-umwl-maker.git
+cd illumio-flowlink-umwl-maker
+
+# 2. Install dependencies
 pip install -r requirements.txt
 
-# 2. Run (with environment variables)
+# 3. Run (with environment variables)
 export PCE_HOST=pce.example.com
 export PCE_API_USER=api_xxxxxxxxx
 export PCE_API_KEY=your_api_secret
